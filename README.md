@@ -15,7 +15,7 @@
 
 ### Hasura / GraphQL / PostgreSQL demo ###
 
-#### Tables Setup ####
+#### DB Tables Setup ####
  * From the defalue 'GraphiQL' dahsboard tab go to 'Data' to start adding some data to the Postgress DB
  * Demo: create a table of blog **posts**:
   * name a new table (e.g. 'posts')
@@ -144,5 +144,7 @@
 
 * [Install the environmental components needed](https://www.gatsbyjs.com/docs/how-to/local-development/), if you don't have it (find the guide for your OS)
 * [Install the Gatsby client](https://www.gatsbyjs.com/docs/reference/gatsby-cli)
-* We can use the [HelloWorld scaffolding project](https://gatsbyguides.com/tutorial/hello-world) *note: you'll need to be logged in to follow the tutorial*
-*
+* We can use the [HelloWorld scaffolding project](https://gatsbyguides.com/tutorial/hello-world) and choose the bare bone starter: "gatsby-starter-hello-world" *note: you'll need to be logged in to follow the tutorial*
+```
+BASH $ gatsby new gatsby-starter-hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
+```
