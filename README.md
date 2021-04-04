@@ -145,6 +145,10 @@
 * [Install the environmental components needed](https://www.gatsbyjs.com/docs/how-to/local-development/), if you don't have it (find the guide for your OS)
 * [Install the Gatsby client](https://www.gatsbyjs.com/docs/reference/gatsby-cli)
 * We can use the [HelloWorld scaffolding project](https://gatsbyguides.com/tutorial/hello-world) and choose the bare bone starter: "gatsby-starter-hello-world" *note: you'll need to be logged in to follow the tutorial*
-```
-BASH $ gatsby new gatsby-starter-hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+  * Navigate to the folder you'd like to create your gatsby project into with terminal and type:
+  ```
+    BASH $ gatsby new gatsby-starter-hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
+  ```
+  * TEST IT:
+    * If you navigate to it with your editor ( I use Atom ), you can check its [package.json](https://nodejs.dev/learn/the-package-json-guide) 'manifesto' for example
+    * It should have only a basic index.js page inside its page directory 'src/pages'
