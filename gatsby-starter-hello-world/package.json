@@ -14,7 +14,12 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "apollo-link-http": "^1.5.17",
+    "dotenv": "^8.2.0",
+    "exports": "^0.0.1",
     "gatsby": "^3.2.1",
+    "gatsby-source-graphql": "^3.2.0",
+    "isomorphic-fetch": "^3.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
